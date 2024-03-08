@@ -31,4 +31,5 @@ static int maxValue(int[] arr)
         }
     }
     return max;
+    int y = 0;
 }
