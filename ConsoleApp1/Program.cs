@@ -4,3 +4,17 @@ Console.WriteLine("Hello, World!");
 int age = 21;
 string name = "Kuba";
 int x = 12;
+
+int[] arr = { 1, 2, 3, 4, 5, 6 };
+Console.WriteLine(getAvg(arr));
+
+static double getAvg(int[] arr)
+{
+    int sum = 0;
+    for (int i = 0; i < arr.Length; i++)
+    {
+        sum += arr[i];
+    }
+
+    return sum / arr.Length;
+}
