@@ -7,6 +7,7 @@ int x = 12;
 
 int[] arr = { 1, 2, 3, 4, 5, 6 };
 Console.WriteLine(getAvg(arr));
+Console.WriteLine(maxValue(arr));
 
 static double getAvg(int[] arr)
 {
@@ -17,4 +18,17 @@ static double getAvg(int[] arr)
     }
 
     return sum / arr.Length;
+}
+
+static int maxValue(int[] arr)
+{
+    int max = arr[0];
+    foreach (var i in arr)
+    {
+        if (i > max)
+        {
+            max = i;
+        }
+    }
+    return max;
 }
