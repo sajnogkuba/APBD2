@@ -2,3 +2,4 @@
 
 Console.WriteLine("Hello, World!");
 int age = 21;
+string name = "Kuba";
