@@ -23,11 +23,11 @@ static double getAvg(int[] arr)
 static int maxValue(int[] arr)
 {
     int max = arr[0];
-    foreach (var k in arr)
+    foreach (var j in arr)
     {
-        if (k > max)
+        if (j > max)
         {
-            max = k;
+            max = j;
         }
     }
     return max;
